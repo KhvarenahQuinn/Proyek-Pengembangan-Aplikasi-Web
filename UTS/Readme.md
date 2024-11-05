@@ -13,6 +13,9 @@ a. Sisi User
 -	**Kontak**: Menyediakan cara bagi pengguna untuk menghubungi tim dukungan.
 
 b. Sisi Admin
+- Manajemen Pesanan: Admin dapat melacak, mengonfirmasi, atau memperbarui status pesanan yang masuk dari pengguna.
+-	Manajemen Pengguna: Admin memiliki akses untuk mengelola akun pengguna, termasuk menambahkan, mengedit, atau menghapus akun jika diperlukan.
+-	Manajemen Konten: Fitur ini memungkinkan admin untuk menambahkan, memperbarui, atau menghapus data buku di aplikasi, termasuk informasi stok, harga, dan deskripsi.
 # 3. Jumlah tabel
 3 tabel, yaitu:
 - Orders
