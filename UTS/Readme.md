@@ -14,7 +14,7 @@ b. Sisi admin
 
 # 5. Upaya serius dari  kelompok 
 
-# Kelompok ini berkomitmen penuh untuk menyelesaikan proyek dengan baik melalui beberapa upaya berikut:
+Kelompok ini berkomitmen penuh untuk menyelesaikan proyek dengan baik melalui beberapa upaya berikut:
 
 - Pembagian Tugas yang Efektif: Setiap anggota diberikan tugas sesuai dengan keahlian masing-masing untuk mempercepat pengerjaan proyek.
 - Peningkatan Komunikasi dan Koordinasi: Memanfaatkan grup komunikasi online untuk update perkembangan, diskusi permasalahan, dan solusi teknis secara cepat.
