@@ -5,7 +5,10 @@ a. Sisi user
 
 b. Sisi admin
 # 3. Jumlah tabel
-3 tabel
+3 tabel, yaitu:
+-Orders
+-Books
+-Users
 # 4. 
 
 
