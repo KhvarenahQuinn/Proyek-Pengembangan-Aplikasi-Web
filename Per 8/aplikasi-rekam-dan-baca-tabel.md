@@ -1,43 +1,38 @@
-## Pekerjaan yang Dilakukan Selama Jam Kuliah ##
+# **Pekerjaan yang Dilakukan Selama Jam Kuliah** #
 
-    Membuat Rancangan Proyek
-        Menentukan ide aplikasi: Aplikasi Rekam dan Baca Tabel.
-        Menentukan teknologi yang digunakan:
-            Frontend: HTML, CSS, JavaScript.
-            Backend: PHP dengan MySQL menggunakan PHPMyAdmin (XAMPP).
+### 1. Membuat Rancangan Proyek ###
 
-    Menyusun Struktur Folder
-        Membuat folder proyek di htdocs:
+1) Menentukan ide aplikasi: Aplikasi Rekam dan Baca Tabel.
+2) Menentukan teknologi yang digunakan:
+   - Frontend: HTML, CSS, JavaScript.
+   - Backend: PHP dengan MySQL menggunakan PHPMyAdmin (XAMPP).
 
-    C:\xampp\htdocs\rekam_baca
+### 2. Menyusun Struktur Folder ###
+1) Membuat folder proyek di htdocs:
+   E:\SEMESTER 4\PRAKTIKUM PWSS\Aplikasi\xampp\htdocs\Pertemuan 8
+2) Membuat file berikut:
+   - index.html → Untuk antarmuka pengguna.
+   - backend.php → Untuk backend yang berkomunikasi dengan database.
 
-    Membuat file berikut:
-        index.html → Untuk antarmuka pengguna.
-        backend.php → Untuk backend yang berkomunikasi dengan database.
+### 3. Mendesain Halaman HTML ###
+1) Membuat form input untuk nama dan email.
+2) Membuat tabel untuk menampilkan data yang diambil dari database.
+3) Menyusun dan menata tampilan menggunakan CSS.
 
-Mendesain Halaman HTML
+### 4. Menulis Logika JavaScript ###
+1) Membuat fungsi fetchRecords() untuk mengambil data dari backend menggunakan metode GET.
+2) Membuat event listener untuk mengirim data ke backend menggunakan metode POST.
+3) Menyusun data yang diambil agar tampil di tabel HTML.
 
-    Membuat form input untuk nama dan email.
-    Membuat tabel untuk menampilkan data yang diambil dari database.
-    Menyusun dan menata tampilan menggunakan CSS.
+### 5. Membuat Backend PHP ###
+1) Menyambungkan aplikasi ke database MySQL.
+2) Menyediakan API untuk:
+   - Menyimpan data dari form (POST).
+   - Membaca data dari database (GET).
 
-Menulis Logika JavaScript
-
-    Membuat fungsi fetchRecords() untuk mengambil data dari backend menggunakan metode GET.
-    Membuat event listener untuk mengirim data ke backend menggunakan metode POST.
-    Menyusun data yang diambil agar tampil di tabel HTML.
-
-Membuat Backend PHP
-
-    Menyambungkan aplikasi ke database MySQL.
-    Menyediakan API untuk:
-        Menyimpan data dari form (POST).
-        Membaca data dari database (GET).
-
-Membuat Database
-
-    Membuat database bernama rekam_baca.
-    Membuat tabel bernama records dengan struktur berikut:
+### 6. Membuat Database ###
+1) Membuat database bernama rekam_baca, dan
+2) Membuat tabel bernama records di phpmyadmin dengan struktur berikut:
 
     CREATE TABLE records (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -46,16 +41,12 @@ Membuat Database
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
 
-Pengujian Aplikasi
+### 7. Pengujian Aplikasi ###
+1) Mengakses aplikasi melalui URL:
+   *http://localhost/Pertemuan 8/index.html*
+2) Mengisi form untuk merekam data.
+   Memeriksa apakah data tampil di tabel setelah berhasil disimpan.
 
-    Mengakses aplikasi melalui URL:
-
-    http://localhost/rekam_baca/index.html
-
-    Mengisi form untuk merekam data.
-    Memeriksa apakah data tampil di tabel setelah berhasil disimpan.
-
-Mengunggah Proyek ke GitHub
-
-    Membuat repositori di GitHub bernama rekam_baca.
-    Mengunggah semua file (index.html, backend.php, dll.) ke dalam repositori.
+### 8. Mengunggah Proyek ke GitHub ###
+1) Membuat repositori di GitHub bernama Per 8.
+2) Mengunggah semua file (index.html, backend.php, dll.) ke dalam repositori.
