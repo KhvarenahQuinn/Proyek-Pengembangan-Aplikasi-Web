@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekam dan Baca Tabel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            margin: 5px 0;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aplikasi Rekam dan Baca Tabel</h1>
+
+    <form id="recordForm">
+        <input type="text" id="name" placeholder="Masukkan Nama" required>
+        <input type="email" id="email" placeholder="Masukkan Email" required>
+        <button type="submit">Simpan</button>
+    </form>
+
+    <h2>Daftar Rekaman</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Waktu Rekam</th>
+            </tr>
+        </thead>
+        <tbody id="recordTable">
+            <!-- Data akan dimuat di sini -->
+        </tbody>
+    </table>
+
+    <script>
+        const form = document.getElementById('recordForm');
+        const tableBody = document.getElementById('recordTable');
+
+        // Fetch records on page load
+        window.onload = () => fetchRecords();
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+
+            const response = await fetch('backend.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'create', name, email })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                form.reset();
+                fetchRecords();
+            } else {
+                alert('Gagal menyimpan data');
+            }
+        });
+
+        async function fetchRecords() {
+            const response = await fetch('backend.php?action=read');
+            const data = await response.json();
+            tableBody.innerHTML = data.map(record => `
+                <tr>
+                    <td>${record.id}</td>
+                    <td>${record.name}</td>
+                    <td>${record.email}</td>
+                    <td>${record.created_at}</td>
+                </tr>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
