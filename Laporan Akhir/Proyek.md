@@ -42,7 +42,7 @@
   Hanya sampai di halaman admin
 
 ### 5. Kesimpulan dan Saran
--**Kesimpulan**
+- **Kesimpulan**
 
--**Saran**
+- **Saran**
   Pada bagian input transaksi pada menu admin, dapat ditambahkan agar bisa upload lebih dari 2 data buku sekaligus. Tambahkan juga verifikasi keamanan untuk halaman admin, dimana user yang bukan admin tidak bisa masuk ke halaman admin.
