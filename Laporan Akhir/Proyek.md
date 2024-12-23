@@ -39,3 +39,10 @@
   PHP dipilih sebagai bahasa pemrograman utama untuk membangun aplikasi ini karena kemampuannya yang sudah terbukti dalam pengembangan aplikasi web dinamis. PHP memiliki ekosistem yang luas, dokumentasi yang baik, dan dukungan yang kuat di berbagai server. Dengan menggunakan PHP, kami dapat mengelola logika aplikasi, pengolahan transaksi, dan penghubungan dengan database MySQL secara efisien.
 
 ### 4. Implemetasi
+  Hanya sampai di halaman admin
+
+### 5. Kesimpulan dan Saran
+-**Kesimpulan**
+
+-**Saran**
+  Pada bagian input transaksi pada menu admin, dapat ditambahkan agar bisa upload lebih dari 2 data buku sekaligus. Tambahkan juga verifikasi keamanan untuk halaman admin, dimana user yang bukan admin tidak bisa masuk ke halaman admin.
