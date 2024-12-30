@@ -1,4 +1,15 @@
-#Nama: Rean Layung Sukmo (225410091)
+<p align="center">
+  <strong > Laporan Proyek Pengembangan Aplikasi Web </strong>
+</p>
+<p align="center">
+  <strong > Aplikasi Penjualan Buku Berbasis Web Pada Toko Taman Baca Rindang </strong>
+</p>
+<p align="center">
+  <strong > Penyusun: </strong>
+  <br> - Rean Layung Sukmo (225410091)
+  <br> - Ulul Azmi A. Latala (225410086)
+</p>
+
 ### 1. Pendahuluan
 
 - **Latar Belakang**:  
