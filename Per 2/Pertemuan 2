@@ -1,2 +1,39 @@
-Membuat / login akun Github dan membuat repositori
+Judul Proyek:
 
+Sistem Manajemen Penjualan Buku Online
+Analisis Kebutuhan / Fitur Aplikasi:
+
+Manajemen Buku:
+Admin dapat menambah, mengedit, dan menghapus informasi buku (judul, penulis, penerbit, genre, harga, stok, ISBN, deskripsi, tanggal terbit). 
+Buku dapat dikelompokkan ke dalam kategori yang relevan, sehingga memudahkan pencarian oleh pelanggan. 
+Sistem menyimpan data stok buku yang tersedia di gudang.
+
+Manajemen Pelanggan:
+Pelanggan dapat melakukan registrasi, login, dan manajemen profil (mengubah informasi seperti nama, alamat, email, dan password).
+Informasi akun pelanggan seperti riwayat pembelian dan wishlist tersimpan dengan aman.
+
+Proses Pemesanan:
+Pelanggan dapat menambah buku ke dalam keranjang belanja dan melakukan pemesanan.
+Sistem mencatat detail pesanan (tanggal pemesanan, total harga, status pemesanan).
+Admin dapat mengelola pesanan, termasuk memperbarui status (dalam proses, dikirim, selesai).
+
+Pengelolaan Item Pesanan:
+Sistem akan mencatat buku yang dibeli dalam setiap pesanan beserta jumlah dan harga satuan buku.
+Admin dapat melihat daftar item yang dipesan dalam setiap pesanan yang dibuat oleh pelanggan.
+
+Manajemen Pembayaran:
+Sistem mencatat informasi pembayaran, termasuk metode pembayaran yang dipilih, jumlah yang dibayarkan, dan tanggal pembayaran.
+Pelanggan dapat memilih metode pembayaran yang tersedia (misalnya kartu kredit, transfer bank, dll.).
+
+Pengelolaan Pengiriman:
+Sistem mencatat informasi pengiriman, termasuk tanggal pengiriman, metode pengiriman, dan nomor pelacakan.
+Admin dapat memperbarui status pengiriman dan memberikan nomor pelacakan kepada pelanggan.
+
+Sistem Review dan Rating Buku:
+Pelanggan dapat memberikan review dan rating terhadap buku yang telah dibeli.
+Review mencakup komentar dan penilaian dalam skala 1-5.
+Sistem menampilkan review dan rating di halaman produk buku.
+
+Wishlist Pelanggan:
+Pelanggan dapat menambah buku ke dalam daftar wishlist.
+Wishlist memungkinkan pelanggan menyimpan buku yang ingin dibeli di masa depan.
